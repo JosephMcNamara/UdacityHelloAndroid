@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="company">Udacity</string>
+    <string name="address">"2465 Latham Street\nMountain View, CA 94043"</string>
+    <string name="phone">650&#8211;555&#8211;5555</string>
+    <string name="visit_website">Por favor visítenos en www.udacity.com</string>
+    <string name="main_image">Montaña rusa</string>
+    <string name="app_name">HolaAndroid</string>
+</resources>

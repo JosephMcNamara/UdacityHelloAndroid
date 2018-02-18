@@ -7,56 +7,69 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_weight="@dimen/imageview_layout_weight"
+        android:background="@color/colorImageBackground"
+        android:contentDescription="@string/main_image"
         android:scaleType="centerCrop"
-        android:src="@drawable/rollercoaster"
-        android:background="#ffffff"/>
+        android:src="@drawable/rollercoaster" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#EEEEEE"
-        android:paddingBottom="0dp"
-        android:paddingLeft="30dp"
-        android:paddingTop="15dp"
-        android:text="Udacity"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        android:textColor="#79797d"/>
+        android:background="@color/colorTextBackground"
+        android:paddingEnd="@dimen/contact_paddingEnd"
+        android:paddingLeft="@dimen/contact_paddingLeft"
+        android:paddingRight="@dimen/contact_paddingRight"
+        android:paddingStart="@dimen/contact_paddingStart"
+        android:paddingTop="@dimen/contact_paddingTop"
+        android:text="@string/company"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/title_text"
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#EEEEEE"
-        android:paddingBottom="10dp"
-        android:paddingLeft="30dp"
-        android:paddingTop="15dp"
-        android:text="2465 Latham St\nMountain View, CA 94043"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:textColor="#79797d"
-        android:autoLink="map"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#EEEEEE"
-        android:paddingBottom="10dp"
-        android:paddingLeft="30dp"
-        android:text="650-555-5555"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:textColor="#79797d"
-        android:autoLink="phone"/>
+        android:autoLink="map"
+        android:background="@color/colorTextBackground"
+        android:paddingEnd="@dimen/contact_paddingEnd"
+        android:paddingLeft="@dimen/contact_paddingLeft"
+        android:paddingRight="@dimen/contact_paddingRight"
+        android:paddingStart="@dimen/contact_paddingStart"
+        android:paddingTop="@dimen/contact_paddingTop"
+        android:text="@string/address"
+        android:textColor="@color/colorText"
+        android:textColorLink="@color/colorText"
+        android:textSize="@dimen/info_text"
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#EEEEEE"
-        android:paddingBottom="10dp"
-        android:paddingLeft="30dp"
-        android:text="Please visit us at www.udacity.com"
-        android:textSize="15sp"
-        android:textStyle="italic"
-        android:textColor="#79797d"
-        android:autoLink="web"/>
+        android:autoLink="phone"
+        android:background="@color/colorTextBackground"
+        android:paddingEnd="@dimen/contact_paddingEnd"
+        android:paddingLeft="@dimen/contact_paddingLeft"
+        android:paddingRight="@dimen/contact_paddingRight"
+        android:paddingStart="@dimen/contact_paddingStart"
+        android:text="@string/phone"
+        android:textColor="@color/colorText"
+        android:textColorLink="@color/colorText"
+        android:textSize="@dimen/info_text"
+        android:textStyle="bold" />
+
+    <TextView
+        style="@style/website"
+        android:autoLink="web"
+        android:background="@color/colorTextBackground"
+        android:paddingBottom="@dimen/contact_paddingBottom"
+        android:paddingEnd="@dimen/contact_paddingEnd"
+        android:paddingLeft="@dimen/contact_paddingLeft"
+        android:paddingRight="@dimen/contact_paddingRight"
+        android:paddingStart="@dimen/contact_paddingStart"
+        android:paddingTop="@dimen/contact_paddingTop"
+        android:text="@string/visit_website"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/visit_us" />
+
 </LinearLayout>

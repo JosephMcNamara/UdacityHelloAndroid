@@ -8,4 +8,10 @@
         <item name="colorAccent">#0000EE</item>
     </style>
 
+    <style name="website">
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
 </resources>
