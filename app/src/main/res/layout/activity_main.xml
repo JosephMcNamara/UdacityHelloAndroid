@@ -31,10 +31,22 @@
         android:paddingBottom="10dp"
         android:paddingLeft="30dp"
         android:paddingTop="15dp"
-        android:text="2465 Latham St\nMountain View, CA 94043\n650-555-5555"
+        android:text="2465 Latham St\nMountain View, CA 94043"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:textColor="#79797d"/>
+        android:textColor="#79797d"
+        android:autoLink="map"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EEEEEE"
+        android:paddingBottom="10dp"
+        android:paddingLeft="30dp"
+        android:text="650-555-5555"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#79797d"
+        android:autoLink="phone"/>
 
     <TextView
         android:layout_width="match_parent"
